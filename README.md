@@ -2,7 +2,7 @@
 When developing on SpriteKit, you'll be working with graphics a lot. This assumes that you'll probably be casting number types to CGFloat all the time when operating with them. Why not make it simpler and let your own code do it for you?
 
 ### How it works
-The CGFloatCaster is a protocol that extends your number types so they can cast themselves as a CGFloat by using a computed property. A collection of overloaded basic operators, then, use this as an advantage to implicitly call this property when one operator is detected as a CGFloat and the other isn't.
+The CGFloatCaster uses a protocol that extends your number types so they can cast themselves as a CGFloat by using a computed property. A collection of overloaded basic operators, then, use this as an advantage to implicitly call this property when one operator is detected as a CGFloat and the other isn't.
 
 ### Usage
 Drag and drop the file into your project. Then, just use basic operators `(+, -, *, /, +=, -=, *=, /=)` normally when operating with CGFloat values.
