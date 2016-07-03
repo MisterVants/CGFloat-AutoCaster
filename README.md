@@ -16,4 +16,4 @@ Drag and drop the file into your project. Then, just use basic operators `(+, -,
 
 **Use this when** you want to avoid swift compiler shouting at you to cast CGFloat everywhere in your code.
 
-**Don't use this when** when developing critical applications or type-safety is a must.
+**Don't use this when** developing critical applications or when type-safety is a must.
